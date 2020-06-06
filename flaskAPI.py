@@ -3,14 +3,20 @@ from datetime import datetime
 
 
 app = Flask(__name__)
-page_count = 0
+
+class Vars(dict):
+    def __init__(self):
+        self.page_count = 0
+
+vars = Vars()
+
 
 @app.route("/")
 def welcome():
-    global page_count
-    page_count += 1
+    vars.page_count += 1
     return render_template("welcome.html",
-    message = "current number of refreshes: %d" % page_count)
+                            message = "current number of refreshes: %d"
+                            % vars.page_count)
 
 @app.route("/date")
 def date():
