@@ -15,7 +15,7 @@ def welcome():
     vars.page_count += 1
     return render_template("welcome.html",
                             message = "current number of refreshes: %d"
-                            % vars.page_count)
+                            % (vars.page_count - 1))
 
 @app.route("/date")
 def date():
@@ -27,4 +27,4 @@ def sad():
     return "When it rains, it pours :("
 
 # if __name__ == "__main__":
-#     app.run(host="", port="80")
+#     app.run(host = "0.0.0.0", port = "8080", debug = True)
