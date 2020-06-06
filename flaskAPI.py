@@ -10,7 +10,6 @@ class Vars(dict):
 
 vars = Vars()
 
-
 @app.route("/")
 def welcome():
     vars.page_count += 1
@@ -26,3 +25,6 @@ def date():
 @app.route("/sadday")
 def sad():
     return "When it rains, it pours :("
+
+# if __name__ == "__main__":
+#     app.run(host="", port="80")
