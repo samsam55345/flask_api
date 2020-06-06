@@ -6,7 +6,7 @@ change into directory that this repo is located on your local machine.
 
 In a terminal: (mac uses 'export', windows uses 'set') do the following two commands
 
-$ export FLASK_APP=flaskAPP.py 
+$ export FLASK_APP=flaskAPI.py 
 
 $ export FLASK_ENV=development
 
