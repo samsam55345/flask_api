@@ -3,4 +3,4 @@ manual_scaling:
       instances: 1
 handlers:
     - url: /*
-      script: flaskAPI.py
+      script: auto
