@@ -6,7 +6,7 @@ change into directory that this repo is located on your local machine.
 
 In a terminal: (mac uses 'export', windows uses 'set') do the following two commands
 
-$ export FLASK_APP=flaskAPP.py 
+$ export FLASK_APP=flaskAPI.py 
 
 $ export FLASK_ENV=development
 
@@ -15,7 +15,7 @@ are debugging features, and will automatically rerun when a source code change w
 
 now you are ready to run flask with the command:
 
-$ run flask
+$ flask run
 
 
 once started up, you can navigate to the webaddress and hit endpoints created in flaskAPI.py
