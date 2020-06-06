@@ -15,7 +15,7 @@ are debugging features, and will automatically rerun when a source code change w
 
 now you are ready to run flask with the command:
 
-$ run flask
+$ flask run
 
 
 once started up, you can navigate to the webaddress and hit endpoints created in flaskAPI.py
