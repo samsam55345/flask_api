@@ -26,6 +26,7 @@ To run in gcloud App Engine
 
     navigate to the main directory (flask_api):
         $ gcloud deploy app app.yaml
+        
     this will deploy your app into GCP App Engine (assuming you have a project created
         and are logged in on your machine)
 
@@ -35,19 +36,3 @@ To run in gcloud App Engine
 
         To view your application in the web browser run:
         $ gcloud app browse
-
-
-
-
-
-
-
-
-until it shows that the version has stopped.
-Deployed service [default] to [https://playground-279515.uc.r.appspot.com]
-
-You can stream logs from the command line by running:
-  $ gcloud app logs tail -s default
-
-To view your application in the web browser run:
-  $ gcloud app browse
