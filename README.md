@@ -1,7 +1,7 @@
 to run locally, make sure flask is installed.
     change into directory that this repo is located on your local machine.
 
-    to run simlpy type 'python3 main.py' into the terminal to get you going
+    to run simply type 'python3 main.py' into the terminal to get you going
 
     OR
         In a terminal: (mac uses 'export', windows uses 'set') do the following two commands
@@ -26,7 +26,7 @@ To run in gcloud App Engine
 
     navigate to the main directory (flask_api):
         $ gcloud deploy app app.yaml
-        
+
     this will deploy your app into GCP App Engine (assuming you have a project created
         and are logged in on your machine)
 
