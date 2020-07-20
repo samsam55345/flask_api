@@ -24,7 +24,7 @@ def date():
 
 @app.route("/sadday")
 def sad():
-    return "When it rains, it pours :("
+    return "When it rains, it pours :( :("
 
 @app.route("/form")
 def form():
